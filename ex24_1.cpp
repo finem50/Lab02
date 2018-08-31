@@ -19,7 +19,7 @@ int main (void){
     //prompt the user:
     cout << "Do you wish to enter another grade? (1 for yes and 0 or other key for no):" << endl;
     cin >> choice;
-  } while (choice == 1)
+  } while (choice == 1);
 
   if(count == 0)
     cout << "You haven't entered any number, no average will be computed, bye \n";
